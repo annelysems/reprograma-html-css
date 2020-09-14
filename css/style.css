@@ -1,0 +1,171 @@
+/* GERAIS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao {
+    background-color: #ffffff;
+    color: #7E459B;
+    border-radius: 20px;
+    text-transform: uppercase;
+    /*padding: 10px 20px 10px 20px
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;*/
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/*FIM GERAIS */
+
+/* BANNER */
+
+.banner {
+    background: url(../img/banner-bg.png) center no-repeat;
+    background-size: cover;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner__conteudo {
+    color: white;
+    text-align: center;
+}
+
+.banner__titulo {
+    font-size: 50px;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: purple; /* cor da borda */
+}
+
+.banner__subtitulo {
+    font-size: 30px;
+}
+
+.banner__link:hover {
+    background-color: purple;
+    color: white;
+}
+
+.sobre__cv:hover {
+    opacity: 0.5;
+}
+
+
+/* FIM BANNER */
+
+
+/* COMEÇO SOBRE / HABILIDADES */
+
+.section {
+    margin: 5% 10%;
+    line-height: 30px;
+}
+
+.section__titulo {
+    color: rgb(104, 104, 104);
+    font-size: 36px;
+}
+
+.sobre {
+    display: flex;
+    align-items: flex-start;
+/*    
+    align-items: flex-end;
+*/
+}
+
+.sobre__texto {
+    width: 50%;
+    margin: 10px;
+}
+
+.sobre__texto-principal {
+    font-size: 24px;
+}
+
+.sobre__texto-2 {
+    font-size: 20px;
+}
+
+.sobre-habilidades {
+    align-items: center;
+    width: 20%;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.sobre-habilidades__lista {
+    font-size: 20px;
+}
+
+
+.soft-skills {
+    align-items: center;
+    width: 20%;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.soft-skills__titulo {
+    font-size: 30px;
+    align-items: flex-start;
+}
+
+.sobre__cv {
+    border: 1px solid purple;
+}
+
+/* FIM SOBRE / HABILIDADES */
+
+/* FOOTER */
+
+.footer {
+    margin: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+}
+
+.redes-sociais__link {
+    margin: 20px;
+    background-color: #7E459B;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 20px;
+    width: 150px;
+}
+
+.redes-sociais__link:hover {
+    transform: scale(1.2);
+    transition: ease-in 1s;
+    transition: ease-out .5s;
+}
+
+.redes-sociais__link img {
+    padding-top: 15px;
+    width: auto;
+    height: 70px;
+}
+
+/* Mexer em um atributo específico dentro de uma classe geral - quando o atributo não possui sua própria classe
+.redes-sociais__link [alt="icone do facebook"] {
+    width: 60px;
+} */

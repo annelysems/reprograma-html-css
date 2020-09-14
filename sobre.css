@@ -1,0 +1,155 @@
+/* GERAIS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* BANNER */
+
+.s_banner {
+    background-color: #7E459B;
+    height: 100px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.s_banner__titulo {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+/* FIM BANNER */
+
+
+/* VIDAS = ACADEMICA, PROFISSIONAL, PESSOAL */
+
+.s_section {
+    margin: 20px;
+}
+
+.s_section__titulo {
+    font-size: 36px;
+}
+
+.vida {
+    width: 45%;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+.img__academico {
+    max-height: 400px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.academico__img {
+    width: 60%;
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.s_sobre__academico {
+    display: flex;
+}
+
+.img__profissional {
+    max-height: 400px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.profissional__img {
+    width: 60%;
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.s_sobre__profissional {
+    display: flex;
+}
+
+.img__pessoal {
+    max-height: 400px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.pessoal__img {
+    width: 60%;
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.s_sobre__pessoal {
+    display: flex;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #7E459B;
+    background-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+}
+
+.redes-sociais__link {
+    color: #FFF;
+    text-align: center;
+    margin: 20px;
+    width: auto;
+    height: auto;
+}
+
+.redes-sociais__link:hover {
+    transform: scale(1.2);
+    transition: ease-in 1s;
+    transition: ease-out .5s;
+}
+
+.redes-sociais__link img {
+    padding-top: 15px;
+    width: auto;
+    height: 70px;
+}
+
+/* Mexer em um atributo específico dentro de uma classe geral - quando o atributo não possui sua própria classe
+.redes-sociais__link [alt="icone do facebook"] {
+    width: 60px;
+} */
+
+
+
+/* COPYRIGHT */
+
+.copyright {
+    background-size: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
