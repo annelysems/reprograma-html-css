@@ -1,0 +1,10 @@
+@media screen and (max-width:800px) {
+    .sobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre__texto {
+        width: 100%;
+    }
+}
